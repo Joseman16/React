@@ -1,0 +1,33 @@
+.contenedor-testimonio{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px;
+    align-items: center;
+    background-color: #f5e4d1;
+    border-radius: 10px;
+    margin: 10px 60px;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%)
+}
+
+.imagen-testimonio{
+    height: auto;
+    width: 20%;
+    border-radius: 10px;
+    margin: 10px 15px;
+}
+
+.nombre-testimonio{
+    text-align: center;
+    font-weight: bold;
+}
+
+.cargo-testimonio{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.texto-testimonio{
+    text-align: justify;
+    line-height: 1.5rem;
+}

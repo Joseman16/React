@@ -1,0 +1,35 @@
+* {
+		margin: 0;
+		padding: 0;
+}
+
+html, body{
+	font-size: 18px;
+	background-color: #f5f6f7;
+}
+
+h1{
+	max-width: 940px;
+	font-size: 2.5em; /*es una unidad de medida relativa. Su valor equivale al tamaño de la fuente del elemento actual o de su contenedor.*/
+	font-family: Lato, sans-serif;
+	font-weight: 700; /*Permitir que la letra sea gruesa, pero no como bold (negrita)*/
+	line-height: 1.1;
+	margin: 40px 0; /* 40px (superior inferior) 0px (izquierdo y derecho)*/
+} 
+
+.App{
+	min-height: 100vh; /*Viewport Height (se adapte a la altura de la ventana gráfica)*/ 
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.contenedor-principal{
+	min-height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
