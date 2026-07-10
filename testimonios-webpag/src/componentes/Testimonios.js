@@ -6,7 +6,7 @@ import '../hoja-de-estilos/Testimonio.css'
 function Testimonio(props){
 
 
-  return(
+  return(  
     <div className='contenedor-testimonio'>
       <img className='imagen-testimonio' 
             src={require(`../img/${props.imagen}.png`)}

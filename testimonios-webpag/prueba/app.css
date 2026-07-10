@@ -1,0 +1,16 @@
+.body{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 15px;
+    width: 100%;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+} 
