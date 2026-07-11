@@ -2,6 +2,21 @@ import React from 'react';
 import '../hoja-de-estilos/Testimonio.css'
 
 //Esto es una exportación por defecto: export function Testimonio(){
+
+//Función que me permite escoger varios formatos de imagen
+const getImageSrc = (imagen) => {
+  try{
+    return require(`../img/${imagen}.png`)
+  }catch(e){
+    try{
+      return require(`../img/${imagen}.jpeg`);
+    }catch(err){
+      // Retorna un string vacío si ninguno existe para que no rompa la app
+      return ""; 
+    }
+  }
+}
+
  
 function Testimonio(props){
 
@@ -9,8 +24,8 @@ function Testimonio(props){
   return(  
     <div className='contenedor-testimonio'>
       <img className='imagen-testimonio' 
-            src={require(`../img/${props.imagen}.png`)}
-            alt='Foto de Emma'/>
+            src={getImageSrc(props.imagen)}
+            alt={`Foto de ${props.nombre}`}/>
       <div className='contenedor-texto-testimonio'>
         <p className='nombre-testimonio'>{props.nombre} en {props.pais}</p>
         <p className='cargo-testimonio'>{props.cargo} en {props.empresa}</p>
