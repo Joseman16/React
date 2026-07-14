@@ -33,3 +33,13 @@ html, body{
     justify-content: center;
     margin: 20px;
 }
+
+.contenedor-principal{
+    height: 550px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
