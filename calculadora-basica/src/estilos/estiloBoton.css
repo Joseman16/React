@@ -1,0 +1,16 @@
+.botonEstilo{
+    width: 200px;
+    height: 50px;
+    margin: 10px 20px;
+    font-size: 20px;
+    border: 3px solid #ff7300;
+    border-radius: 10px;
+    background-color: #f7c69e;
+    transition: all 0.3s ease-in-out;
+}
+
+.botonEstilo:hover{
+    transform: scale(1.1);
+    border: 3px solid #0049e7;
+    background-color: #b1c9fc;
+}

@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contenedor-principal{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 10px;
+  padding: 20px 20px;
+  background-color: aliceblue;
+}
+
+.contenedor-btn{
+  display: flex;
+  max-width: 50%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contenedor-FormularR{
+  display: flex;
+  max-width: 40%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+  input{
+    height: 20px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    border: 2px solid #000c77 ;
+  }
+
+}
