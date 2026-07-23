@@ -1,5 +1,5 @@
 import React from "react";
-import '../estilos/esstiloResultado.css'
+import '../estilos/estiloResultado.css'
 
 function Resuultado({valorTotal}){
     return(

@@ -1,17 +1,20 @@
 .botonEstilo{
     width: 180px;
-    height: 50px;
-    padding: 15px 25px;
+    height: 60px;
+    padding: 15px 15px;
     margin: 10px 10px;
     font-size: 20px;
+    text-align: center;
+    text-wrap: balance;
     background-color: cornflowerblue;
     color: black;
     border: 3px solid #000874;
     transition: all 0.3s ease-in-out;
 }
 
-.botonEstilo{
+.botonEstilo:hover{
     transform: scale(1.1);
     border: 3px solid #00837c;
     background-color: #10d6ab;
+    cursor: pointer;
 }
