@@ -5,36 +5,38 @@ import { useState } from 'react';
 
 import Boton from './componentes/Boton'
 import Resultado from './componentes/Resultado'
+import Encabezado from './componentes/encabezado';
 
 function App() {
   const [valor, setValor] = useState(0);
 
-  let num1 = Number(document.getElementById("num1").value);
-  let num2 = Number(document.getElementById("num2").value);
-
-
-
-  const suma = () =>{
+  const suma = () => {
+    const num1 = Number(document.getElementById("num1").value);
+    const num2 = Number(document.getElementById("num2").value);
     setValor(num1 + num2);
   }
 
-  const resta = () =>{
+  const resta = () => {
+    const num1 = Number(document.getElementById("num1").value);
+    const num2 = Number(document.getElementById("num2").value);
     setValor(num1 - num2);
   }
 
-  const multiplicacion = () =>{
+  const multiplicacion = () => {
+    const num1 = Number(document.getElementById("num1").value);
+    const num2 = Number(document.getElementById("num2").value);
     setValor(num1 * num2);
   }
 
-  const division = () =>{
+  const division = () => {
+    const num1 = Number(document.getElementById("num1").value);
+    const num2 = Number(document.getElementById("num2").value);
     setValor(num1 / num2);
   }
   
   return (
     <div className="App">
-      <header>
-
-      </header>
+      <Encabezado titulo='CALCULADOR BASICA'></Encabezado>
       <div className='contenedor-principal'>
         <div className='contenedor-btn'>
           <Boton 

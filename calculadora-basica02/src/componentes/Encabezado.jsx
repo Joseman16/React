@@ -1,8 +1,7 @@
 import React from "react";
 import '../estilos/estiloEncabezado.css'
 
-
-function encabezado({titulo}){
+function Encabezado({titulo}){
     return(
         <header>
             {titulo}
@@ -10,4 +9,4 @@ function encabezado({titulo}){
     )
 }
 
-export default encabezado;
+export default Encabezado;
