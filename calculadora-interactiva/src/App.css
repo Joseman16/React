@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #020328;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.jmlc-logo-contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px; 
+  margin: 10px
+}
+
+.logoJmlc{
+  width: 60px;
+  height: 100px;
+  margin: 25px 10px;
+  /* el 1ero es (0)px => Desplazamiento Horizontal*/
+  /* el 2do es (0)px => Desplazamiento Vertical*/
+  /* el 3ero es (10)px => Radio de desenfoque*/
+  /* el 4to es el color de sombra*/
+  filter: drop-shadow(5px 10px 25px rgba(86, 86, 86, 0.639));
+}
+
+.contenedor-calculadora{
+  width: 400px;
+  height: 600px;
+  padding: 15px;
+  background-color: #079292;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
+  margin-top:20px;
+}
+
