@@ -1,0 +1,30 @@
+/* "em" es una unidad relativa */
+
+/*
+    es una unidad de medida relativa que equivale 
+    al tamaño de la fuente del elemento padre 
+    (cuando se usa en font-size) o al tamaño de la 
+    fuente del propio elemento (cuando se usa en 
+    propiedades como padding o margin). 
+*/
+.boton-clear{
+    height:80px ;
+    font-size: 1.6em;
+    display: flex;
+    flex: 1;
+    background-color: #ac0246;
+    margin-top: 6px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+}
+
+.boton-clear:hover{
+    transform: scale(1.02);
+    background-color: rgb(128, 30, 255);
+}
