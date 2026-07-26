@@ -12,8 +12,11 @@ function Boton(props){
 
 
     return (
+        
+        // ()=> (Esto es una función anonima, que también es una función flecha )
         <div
             className={`boton-contenedor ${esOperador(props.children) ? 'operador' : ''}`.trimEnd()}
+            onClick={() => props.manejarCLic(props.children)}
         >
             {props.children}
         </div> 
